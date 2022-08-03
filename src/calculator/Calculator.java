@@ -558,8 +558,6 @@ public class Calculator extends javax.swing.JFrame {
 
             nextNumD = Double.valueOf(compute.toString());
             compute.delete(0, compute.length());
-            
-            //String isWhole = answer.substring(answer.indexOf("'"), answer.length()).contains("00") ? answer.substring(0, answer.indexOf(".")) : answer;
 
              switch(operator){
 
